@@ -1,0 +1,29 @@
+body {
+    background-color: bisque;
+
+}
+h1{
+    color: aqua;
+    background-color: brown;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: aqua;
+    background-color: brown;
+}
+ul > li {
+   text-align: center;
+}
+
+img {
+    width: 20%;
+    margin: auto;
+    display: block;
+}
+
+button {
+    color: greenyellow;
+    position: center;
+}
