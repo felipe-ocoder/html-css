@@ -11,11 +11,19 @@
 
         table {
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
         }
 
         td {
             border: 1px solid black;
+            padding: 8px;
+            text-align: center; /*Alinhamento horinzontal*/
+            vertical-align: middle; /*Alinhamento vertical*/
+        }
+
+        .numero {
+            text-align: right;
         }
     </style>
 </head>
@@ -41,9 +49,9 @@
             <td>C3</td>
         </tr>
         <tr> <!--Terceira linha-->
-            <td>A3</td>
-            <td>B3</td>
-            <td>C3</td>
+            <td class="numero">A3</td>
+            <td class="numero">B3</td>
+            <td class="numero">C3</td>
         </tr>
         <tr> <!--Quarta linha-->
             <td>A4</td>
